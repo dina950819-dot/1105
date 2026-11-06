@@ -150,3 +150,6 @@ body.theme-minimal {
 .popup a {
   text-decoration: underline;
 }
+.hidden-button {
+  text-decoration: underline;
+}
