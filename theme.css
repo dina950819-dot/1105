@@ -80,7 +80,14 @@ html:has(> body.theme-minimal) {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  filter: grayscale(100%);
+}
+html:has(> body.theme-minimal) {
+  background-color: #7a7a79;
+}
+
+/* 大頭貼與其他內容維持彩色 */
+.theme-minimal img {
+  filter: none;
 }
 body.theme-minimal {
    font-family: "Noto Serif TC", serif;
