@@ -147,7 +147,7 @@ body.theme-minimal {
   display: block;
   margin: 20px auto;
 }
-.popup a {
+.popup a:not(.close) {
   text-decoration: underline;
 }
 .hidden-button {
