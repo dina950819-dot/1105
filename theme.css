@@ -139,3 +139,11 @@ body.theme-minimal {
   color: #1d1d1f;
   text-decoration: none;
 }
+.band-photo {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 20px auto;
+}
