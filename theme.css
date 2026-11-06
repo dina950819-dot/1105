@@ -82,6 +82,7 @@ body.theme-minimal {
   background: #fff;
   text-align: left;
   border-top: 8px solid #1d1d1f;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 .theme-minimal img { margin: 0 0 22px; border-radius: 0; filter: none; }
 .theme-minimal h1 { font-size: 3rem; font-weight: 900; letter-spacing: -.02em; }
