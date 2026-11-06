@@ -74,15 +74,18 @@ body.theme-notebook {
 
 /* ---------- 主題 3：極簡雜誌 ---------- */
 html:has(> body.theme-minimal) {
-   background-image: url("images/pexels-dumitru-bumbu-742240889-30795531.jpg");
+  background-image:
+    linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),
+    url("images/pexels-dumitru-bumbu-742240889-30795531.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  filter: grayscale(100%);
 }
 body.theme-minimal {
-  font-family: "Noto Serif TC", serif;
+   font-family: "Noto Serif TC", serif;
   color: #1d1d1f;
-  background: #fdfcfc;
+  background: rgba(253, 252, 252, 0.92);
   text-align: left;
   border-top: 8px solid #1d1d1f;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
