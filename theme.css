@@ -147,3 +147,6 @@ body.theme-minimal {
   display: block;
   margin: 20px auto;
 }
+.popup a {
+  text-decoration: underline;
+}
