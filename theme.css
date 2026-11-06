@@ -83,7 +83,7 @@ body.theme-minimal {
   text-align: left;
   border-top: 8px solid #1d1d1f;
 }
-.theme-minimal img { margin: 0 0 22px; border-radius: 0; filter: grayscale(1) contrast(1.1); }
+.theme-minimal img { margin: 0 0 22px; border-radius: 0; filter: none; }
 .theme-minimal h1 { font-size: 3rem; font-weight: 900; letter-spacing: -.02em; }
 .theme-minimal h2 {
   font-family: "Noto Sans TC", sans-serif; font-size: .8rem; letter-spacing: .3em; color: #8a8a8a;
@@ -91,4 +91,4 @@ body.theme-minimal {
 }
 .theme-minimal hr { background: #1d1d1f; width: 40px; margin-left: 0; }
 .theme-minimal a { color: #1d1d1f; }
-.theme-minimal em { background: #ffef9a; font-style: normal; padding: 0 4px; }
+.theme-minimal em { background: #b1aad8; font-style: normal; padding: 0 4px; }
